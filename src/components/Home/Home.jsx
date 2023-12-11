@@ -1,14 +1,15 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import SocialLinks from "../SocialLinks/SocialLinks";
 import { Link } from "react-router-dom";
-import { HiDocumentDownload } from "react-icons/hi";
+import { FaFileDownload } from "react-icons/fa";
+
 
 
 const Home = () => {
     const [text] = useTypewriter({
         words: ['React Developer', 'Frontend Developer', 'Mern Stack Developer', 'Full Stack Developer', 'Backend Developer'], // Fixed typo in the word "Developereloper"
         loop: {}, // Set loop to true for continuous typing
-        typeSpeed: 120,
+        typeSpeed: 110,
         deleteSpeed: 80,
         cursor: Cursor.BLOCK,
         // cursorStyle: '|', // Changed cursorStyle to match the correct property name
@@ -28,16 +29,16 @@ const Home = () => {
                         </h1>
                         <h2 className="mb-10 text-4xl text-white font-semibold ">{text} <Cursor cursorStyle='|' /></h2> {/* Ensure the Cursor component is used correctly */}
                       <div className="flex gap-4">
-                      <Link><button className="btn text-center w-40 rounded-sm bg-purple-600 text-white">Contact Me</button></Link>
+                      {/* <Link><button className="btn text-center w-40 rounded-sm bg-purple-600 text-white">Contact Me</button></Link> */}
                       
-                     <div className="flex justify-center items-center text-purple-600">
+                     <div className="flex justify-center items-center text-3xl">
                      
                      <Link>
                      
-                     <button  className="btn text-center w-40 rounded-sm bg-purple-600 text-white">Download Resume</button>
+                     <button  className="btn bg-purple-600 r text-center   rounded-sm text-white">Download Resume<FaFileDownload></FaFileDownload> </button>
                     
                      </Link>
-                     <HiDocumentDownload></HiDocumentDownload>
+                   
                      </div>
                       
                       </div>

@@ -5,16 +5,26 @@ import { HashLink } from "react-router-hash-link";
 const Navbar = () => {
 
     const navLinks = 
-    <>
+               <>
 
             <li>
-                <HashLink smooth to="/">
+                <HashLink smooth to="#home">
                     Home
                 </HashLink>
             </li>
             <li>
-                <HashLink smooth to="/">
+                <HashLink smooth to="#about">
                     About
+                </HashLink>
+            </li>
+            <li>
+                <HashLink smooth to="#projects">
+                    Projects
+                </HashLink>
+            </li>
+            <li>
+                <HashLink smooth to="#contact">
+                    Contact 
                 </HashLink>
             </li>
     </>
