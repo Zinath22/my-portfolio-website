@@ -14,7 +14,7 @@ const About = () => {
     return (
         <div id="about" className="flex my-[120px] flex-col lg:flex-row justify-between items-center gap-4 w-[80%] mx-auto ">
             <div>
-                <img className="rounded-full" src="https://avatars.githubusercontent.com/u/138351340?v=4" alt="" />
+                <img className="rounded-full shadow-xl shadow-purple-600" src="https://avatars.githubusercontent.com/u/138351340?v=4" alt="" />
             </div>
             <div className='max-w-3xl'>
                 <p>Hello there!  I am Zinath Farhana, a passionate Frontend MERN Stack Developer . I thrive on turning creative ideas into engaging and user-friendly digital experiences. With a strong foundation in the MERN (MongoDB, Express.js, React.js, Node.js) stack, I specialize in building robust and scalable frontend applications that leave a lasting impact.</p>

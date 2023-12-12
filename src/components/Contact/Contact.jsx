@@ -13,7 +13,7 @@ const Contact = () => {
 
 
 
-        <div className=" w-full max-w-sm  ">
+        {/* <div className=" w-full max-w-sm  ">
             <form className="space-y-2">
                 <div className="form-control">
 
@@ -34,7 +34,21 @@ const Contact = () => {
                     <button className="btn  btn-outline text-purple-500 border-0 border-b-4  ">Send</button>
                 </div>
             </form>
-        </div>
+        </div> */}
+         <div className="flex text-purple-500 justify-start items-center space-y-4 flex-col">
+  <h2>Contact Me</h2>
+  <input className="border p-1 border-purple-500" placeholder="Name" type="name" name="" id="" />
+<input className="border p-1 border-purple-500" placeholder="Email" type="email" name="" id="" />
+<textarea
+placeholder="Your Message"
+   className="border p-2 border-purple-500"
+   cols="30"
+   rows="3"
+ ></textarea>
+<button className="btn bg-purple-500 text-white">Submit</button>
+
+
+</div>
         <div className="text-center lg:text-left mb-5">
             <div className="text-left  space-y-5 mb-6">
            
