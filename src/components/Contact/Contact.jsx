@@ -4,8 +4,10 @@ import { FaEnvelope, FaLocationArrow } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <div   className="h-[100vh]" id="contact">
-
+        <div   className="h-[100vh] my-[120px]" id="contact">
+          <div>
+            <h1 className="text-center mb-5 font-semibold text-3xl border-b-2 p-2 border-purple-600 text-purple-600 mx-auto w-[200px]">Contact me</h1>
+        </div>
 
 <div className=" w-full p-4">
     <div className=" flex flex-col justify-evenly items-center  lg:flex-row-reverse">
@@ -35,17 +37,17 @@ const Contact = () => {
                 </div>
             </form>
         </div> */}
-         <div className="flex text-purple-500 justify-start items-center space-y-4 flex-col">
-  <h2>Contact Me</h2>
-  <input className="border p-1 border-purple-500" placeholder="Name" type="name" name="" id="" />
-<input className="border p-1 border-purple-500" placeholder="Email" type="email" name="" id="" />
+         <div className="flex text-purple-600 justify-start  space-y-4 flex-col">
+  
+  <input className="border p-1 border-purple-600" placeholder="Name" type="name" name="" id="" />
+<input className="border p-1 border-purple-600" placeholder="Email" type="email" name="" id="" />
 <textarea
 placeholder="Your Message"
-   className="border p-2 border-purple-500"
+   className="border p-2 border-purple-600"
    cols="30"
    rows="3"
  ></textarea>
-<button className="btn bg-purple-500 text-white">Submit</button>
+<button className="btn bg-purple-600 text-white">Submit</button>
 
 
 </div>

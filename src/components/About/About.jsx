@@ -12,7 +12,12 @@ import 'react-tabs/style/react-tabs.css';
 const About = () => {
 
     return (
-        <div id="about" className="flex my-[120px] flex-col lg:flex-row justify-between items-center gap-4 w-[80%] mx-auto ">
+      <div className="my-[120px]">
+        <div>
+            <h1 className="text-center mb-5 font-semibold text-3xl border-b-2 p-2 border-purple-600 text-purple-600 mx-auto w-[200px]">About me</h1>
+        </div>
+          <div id="about" className="flex  flex-col lg:flex-row justify-between items-center gap-4 w-[80%] mx-auto ">
+            
             <div>
                 <img className="rounded-full shadow-xl shadow-purple-600" src="https://avatars.githubusercontent.com/u/138351340?v=4" alt="" />
             </div>
@@ -153,6 +158,7 @@ const About = () => {
                 </div>
             </div>
         </div>
+      </div>
     );
 };
 

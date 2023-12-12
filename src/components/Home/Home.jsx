@@ -1,6 +1,6 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import SocialLinks from "../SocialLinks/SocialLinks";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { FaFileDownload } from "react-icons/fa";
 
 
@@ -19,7 +19,7 @@ const Home = () => {
 
     return (
         <div className='h-screen' id='home'>
-            <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
+            <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://github.com/Mitul3047/Image-link-hosting-repo/blob/main/portfolio/Purple%20Violet%20White%20Futuristic%20Birthday%20Banner.png?raw=true)' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="w-full flex flex-col lg:flex-row justify-between lg:px-20 px-4 items-center text-neutral-content">
                    <div>
@@ -33,11 +33,12 @@ const Home = () => {
                       
                      <div className="flex justify-center items-center text-3xl">
                      
-                     <Link>
+                     {/* <Link> */}
                      
-                     <button  className="btn bg-purple-600 r text-center   rounded-sm text-white">Download Resume<FaFileDownload></FaFileDownload> </button>
+                     <a  className="btn bg-purple-600 r text-center   rounded-sm text-white" href="react
+                     zinath.pdf" download={"zinath.pdf"}>Download Resume<FaFileDownload></FaFileDownload> </a>
                     
-                     </Link>
+                     {/* </Link> */}
                    
                      </div>
                       
