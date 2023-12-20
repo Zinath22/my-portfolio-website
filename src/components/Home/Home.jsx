@@ -1,3 +1,4 @@
+import ResumePdf from "./zinath_resume.pdf";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import SocialLinks from "../SocialLinks/SocialLinks";
 // import { Link } from "react-router-dom";
@@ -21,7 +22,7 @@ const Home = () => {
         <div className='h-screen' id='home'>
             <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://github.com/Mitul3047/Image-link-hosting-repo/blob/main/portfolio/Purple%20Violet%20White%20Futuristic%20Birthday%20Banner.png?raw=true)' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
-                <div className="w-full flex flex-col lg:flex-row justify-between lg:px-20 px-4 items-center text-neutral-content">
+                <div className="w-full flex flex-col lg:flex-row justify-between  lg:px-20 px-4 items-center text-neutral-content">
                    <div>
                    <div className="max-w-5xl">
                         <h1 className="mb-5 text-5xl font-bold text-white">Hi! I am
@@ -35,8 +36,7 @@ const Home = () => {
                      
                      {/* <Link> */}
                      
-                     <a  className="btn bg-purple-600 r text-center   rounded-sm text-white" href="react
-                     zinath.pdf" download={"zinath.pdf"}>Download Resume<FaFileDownload></FaFileDownload> </a>
+                     <a href={ResumePdf}  className="btn bg-purple-600 r text-center mb-5  rounded-sm text-white"  title="Download Resume" download={"zinath_resume.pdf"}>Download Resume<FaFileDownload></FaFileDownload> </a>
                     
                      {/* </Link> */}
                    

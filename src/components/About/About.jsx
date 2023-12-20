@@ -80,7 +80,7 @@ const About = () => {
                                 </div>
                                
 
-                                <div className="border-l-2 pl-10 ">
+                                <div className="border-l-2 lg:pl-10 ">
                                     <h3 className=" text-3xl my-5 lg:my-10 text-center font-semibold">Back-End</h3>
                                     <div className="">
                                         <div className="grid grid-cols-4 text-5xl gap-5 text-purple-500 mb-10">
