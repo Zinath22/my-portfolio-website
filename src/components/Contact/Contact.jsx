@@ -3,6 +3,13 @@ import { FaEnvelope, FaLocationArrow } from "react-icons/fa";
 
 
 const Contact = () => {
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+    });
+
     return (
         <div   className="h-[100vh] my-[120px]" id="contact">
           <div>
