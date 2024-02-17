@@ -18,7 +18,7 @@ const Contact = () => {
 
         try {
             // Send a POST request to the specified URL with form data
-            const response = await axios.post('http://localhost:5000/users', formData);
+            const response = await axios.post('https://vercel.com/zs-projects-044bf02e/portfoliowebsite/users', formData);
 
             // Log the response and show success message using SweetAlert2
             console.log('Post request successful', response.data);
